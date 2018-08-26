@@ -1,0 +1,41 @@
+{
+  "name": "entrance-task-2-2",
+  "version": "1.0.0",
+  "description": "Smart home UI",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp test",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaVolkova/yandex-shi-entrance-task-2-2.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Julia Volkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaVolkova/yandex-shi-entrance-task-2-2/issues"
+  },
+  "homepage": "https://github.com/JuliaVolkova/yandex-shi-entrance-task-2-2#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "node-normalize-scss": "^1.5.0"
+  }
+}

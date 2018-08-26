@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Яндекс Дом </title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <header class="main-header">
+        <img src="../img/Яндекс%20Дом.svg" alt="яндекс дом" width="98" height="39"/>
+        <nav class="main-header-navigation">
+            <ul class="main-header-list">
+                <li><a href="#" class="main-header-navigation-link">Сводка</a></li>
+                <li><a href="#" class="main-header-navigation-link">Устройства</a></li>
+                <li><a href="#" class="main-header-navigation-link">Сценарии</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content-container">
+        <h1 class="visually-hidden">Страница управления умным домом</h1>
+        <section class="main-info-container">
+            <h2 class="main-content-title">Главное</h2>
+            <div class="main-info">
+                <div class="current-user-block">
+                    <div>
+                        <p class="greeting">Привет, Геннадий!</p>
+                        <p class="current-state">Двери и окна закрыты, сигнализация включена.</p>
+                    </div>
+                    <div class="current-temperature-info">
+                        <p>Дома: +23</p>
+                        <p>За окном: +19</p>
+                    </div>
+                </div>
+                <ul class="current-device-info">
+                    <li class="card">
+                        <div>
+                            <span class="card-title">Philips Cooler</span>
+                            <span class="card-subtitle">Начнет охлаждать в 16:30</span>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div>
+                            <span class="card-title">Xiaomi Yeelight LED Smart Bulb</span>
+                            <span class="card-subtitle">Включится в 17:00</span>
+                        </div>
+                    </li>
+                    <!--<li>-->
+                        <!--<div>-->
+                            <!--<span class="card-title">Philips Cooler</span>-->
+                            <!--<span class="card-subtitle">Включится в 19:00</span>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<div>-->
+                            <!--<span class="card-title">Philips Cooler</span>-->
+                            <!--<span class="card-subtitle">Включится в 22:00</span>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                </ul>
+                <button type="button">еще</button>
+            </div>
+        </section>
+        <section class="favorite-container">
+            <h2 class="main-content-title">Избранные сценарии</h2>
+            <ul class="favorite-scenarios">
+                <li class="card">
+                    <div>
+                        <span class="card-title">Выключить весь свет в доме и во дворе</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div>
+                        <span class="card-title">Я ухожу</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div>
+                        <span class="card-title">Включить свет в коридоре</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div>
+                        <span class="card-title">Набрать горячую ванну</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div>
+                        <span class="card-title">Сделать пол тёплым во всей квартире</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="favorite-devices-container">
+            <h2 class="main-content-title">Избранные устройства</h2>
+            <ul class="favorite-devices-filter">
+                <li>
+                    <label for="all">Все</label>
+                    <input type="radio" name="devices" value="all" id="all"/>
+                </li>
+                <li>
+                    <label for="kitchen">Кухня</label>
+                    <input type="radio" name="devices" value="kitchen" id="kitchen"/>
+                </li>
+                <li>
+                    <label for="living-room">Зал</label>
+                    <input type="radio" name="devices" value="living-room" id="living-room"/>
+                </li>
+                <li>
+                    <label for="lights">Лампочки</label>
+                    <input type="radio" name="devices" value="lights" id="lights"/>
+                </li>
+                <li>
+                    <label for="cameras">Камеры</label>
+                    <input type="radio" name="devices" value="cameras" id="cameras"/>
+                </li>
+            </ul>
+
+            <ul class="favorite-devices-list">
+                <li class="card"></li>
+                <li class="card"></li>
+                <li class="card"></li>
+                <li class="card"></li>
+                <li class="card"></li>
+                <li class="card"></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <ul class="main-footer-navigation">
+            <li><a href="#" class="main-footer-navigation-link">Помощь</a></li>
+            <li><a href="#" class="main-footer-navigation-link">Обратная связь</a></li>
+            <li><a href="#" class="main-footer-navigation-link">Разработчикам</a></li>
+            <li><a href="#" class="main-footer-navigation-link">Условия использования</a></li>
+        </ul>
+        <cite>© 2001–2017  ООО «Яндекс»</cite>
+    </footer>
+</body>
+</html>

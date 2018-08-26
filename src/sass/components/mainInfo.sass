@@ -1,0 +1,34 @@
+@import '../variables/variables'
+
+.main-info-container
+  flex-basis: 50%
+
+  .main-info
+    display: flex
+    justify-content: space-around
+    align-items: flex-start
+    background-image: url('../../img/bg@2x.png')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 100%
+    padding: 10px
+    border-radius: 20px
+
+    .current-user-block
+      margin-left: 10px
+
+      .greeting
+        font-family: 'Arial-BoldMT', 'sans-serif'
+        font-size: 27px
+
+      .current-state
+        font-family: 'ArialMT', 'sans-serif'
+        font-size: $primary
+
+
+    .current-temperature-info
+      display: flex
+
+    .current-device-info
+      display: flex
+      flex-direction: column
